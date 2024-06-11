@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Flatory-Serif;
+    src: url(./assets/fonts/flatory-serif-medium-semi-condensed.ttf);
+}
+
+
+body {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+.profile {
+    border-radius: 50%;
+    height: 200px;
+    margin-top: 100px;
+}
+.intro-h2 {
+    font-family: Flatory-Serif;
+    color: #12372A;
+    margin: 0;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+.intro-p {
+    font-family: raleway;
+    color: #262920;
+    width: 400px;
+    text-align: center;
+    font-size: large;
+    
+
+}
+
+.intro {
+    background-color: #BFCC7C;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr {
+    height: 0.5px;
+    color: #12372A;
+    background-color: #12372A;
+    font-size: 0;
+    border: 0;
+}
+
+.resume {
+    height: 100vh;
+    width: 100vw;
+    background-color: #E7D37F;
+}
+.resume h2 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 100;
+    font-size: 100px;
+    color: #365E32;
+    padding-top: 70px;
+}
+
+.resume ul {
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: #365E32;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.resume img {
+    color: #365E32;
+}
+
+.text {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+}
+.hero img{
+    height: 100%;
+    width: 100%;
+    z-index: -3;
+    position: absolute;
+}
+
+.hero h1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 5rem;
+    color: white;
+}
+
+.hero p {
+    /* font-family: "Urbanist", sans-serif; */
+    font-family: "Montserrat Alternates", sans-serif;
+    letter-spacing: 5px;
+    color: #BFCC7C;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.text {
+    padding: 0;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.contact a {
+    text-decoration: none !important;
+    color: #365E32;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #E7D37F;
+}
